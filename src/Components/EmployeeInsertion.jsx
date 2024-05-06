@@ -45,6 +45,12 @@ const EmployeeInsertion = () => {
             required: { value: true, message: "Designation is Required" },
           })}
         />
+        <br/>
+        <br/>
+        <select {...register("ReportingTo")} placeholder = "Reporting To ....">
+             <option value = "Mustafa Kashif">Mustafa Kashif</option>
+             <option value = "Kashif Mehmood">Kashif Mehmood</option>
+        </select>
         <br />
         <br />
         <Button variant="outline-success" type="submit">

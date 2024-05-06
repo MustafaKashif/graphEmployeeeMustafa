@@ -50,7 +50,7 @@ export const deleteEmployeesById = async (id) => {
     try {
       const dbReference = ref(db, EmployeeEntity + "/" + id);
       remove(dbReference).then(() => console.log("Removed !"));
-      alert("Product is removed successfully");
+      alert("Employee Record is removed successfully");
     } catch (error) {
       console.error("Error", error);
     }

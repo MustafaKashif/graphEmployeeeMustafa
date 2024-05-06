@@ -3,7 +3,7 @@
   background: white;
   color : black;
 }
-input{
+input, select{
   padding: 20px;
   margin: 10px;
   color: black;
